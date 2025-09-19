@@ -1,0 +1,20 @@
+[5.639s] Invoking command in '/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/build/rover_package': PYTHONPATH=/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/build/rover_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/rover_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/build/rover_package/build --no-deps symlink_data --force
+[8.296s] running develop
+[8.792s] running egg_info
+[8.793s] writing rover_package.egg-info/PKG-INFO
+[8.799s] writing dependency_links to rover_package.egg-info/dependency_links.txt
+[8.803s] writing entry points to rover_package.egg-info/entry_points.txt
+[8.806s] writing requirements to rover_package.egg-info/requires.txt
+[8.808s] writing top-level names to rover_package.egg-info/top_level.txt
+[8.851s] reading manifest file 'rover_package.egg-info/SOURCES.txt'
+[8.939s] writing manifest file 'rover_package.egg-info/SOURCES.txt'
+[8.969s] running build_ext
+[8.970s] Creating /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/rover_package/lib/python3.10/site-packages/rover-package.egg-link (link to .)
+[8.997s] Installing base_station_vel script to /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/rover_package/lib/rover_package
+[9.019s] Installing rover_vel script to /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/rover_package/lib/rover_package
+[9.040s] 
+[9.041s] Installed /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/build/rover_package
+[9.044s] running symlink_data
+[9.071s] symbolically linking /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/build/rover_package/resource/rover_package -> /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/rover_package/share/ament_index/resource_index/packages
+[9.093s] symbolically linking /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/build/rover_package/package.xml -> /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/rover_package/share/rover_package
+[9.121s] Invoked command in '/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/build/rover_package' returned '0': PYTHONPATH=/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/build/rover_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/rover_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/build/rover_package/build --no-deps symlink_data --force

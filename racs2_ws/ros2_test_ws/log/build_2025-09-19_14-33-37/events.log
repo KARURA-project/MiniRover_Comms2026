@@ -1,0 +1,175 @@
+[0.000000] (-) TimerEvent: {}
+[0.000239] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000388] (rover_package) JobQueued: {'identifier': 'rover_package', 'dependencies': OrderedDict()}
+[0.000536] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.097952] (-) TimerEvent: {}
+[0.200465] (-) TimerEvent: {}
+[0.224896] (rover_package) JobStarted: {'identifier': 'rover_package'}
+[0.304990] (-) TimerEvent: {}
+[0.407372] (-) TimerEvent: {}
+[0.509208] (-) TimerEvent: {}
+[0.612116] (-) TimerEvent: {}
+[0.716291] (-) TimerEvent: {}
+[0.820024] (-) TimerEvent: {}
+[0.923897] (-) TimerEvent: {}
+[1.028811] (-) TimerEvent: {}
+[1.132471] (-) TimerEvent: {}
+[1.236206] (-) TimerEvent: {}
+[1.340633] (-) TimerEvent: {}
+[1.440983] (-) TimerEvent: {}
+[1.544988] (-) TimerEvent: {}
+[1.648413] (-) TimerEvent: {}
+[1.749134] (-) TimerEvent: {}
+[1.849406] (-) TimerEvent: {}
+[1.950779] (-) TimerEvent: {}
+[2.052564] (-) TimerEvent: {}
+[2.152877] (-) TimerEvent: {}
+[2.257616] (-) TimerEvent: {}
+[2.360096] (-) TimerEvent: {}
+[2.460379] (-) TimerEvent: {}
+[2.564777] (-) TimerEvent: {}
+[2.669556] (-) TimerEvent: {}
+[2.771185] (-) TimerEvent: {}
+[2.872072] (-) TimerEvent: {}
+[2.972998] (-) TimerEvent: {}
+[3.073324] (-) TimerEvent: {}
+[3.173641] (-) TimerEvent: {}
+[3.276293] (-) TimerEvent: {}
+[3.378400] (-) TimerEvent: {}
+[3.482153] (-) TimerEvent: {}
+[3.583630] (-) TimerEvent: {}
+[3.683989] (-) TimerEvent: {}
+[3.786350] (-) TimerEvent: {}
+[3.888970] (-) TimerEvent: {}
+[3.992419] (-) TimerEvent: {}
+[4.092751] (-) TimerEvent: {}
+[4.196407] (-) TimerEvent: {}
+[4.296803] (-) TimerEvent: {}
+[4.400458] (-) TimerEvent: {}
+[4.504946] (-) TimerEvent: {}
+[4.607275] (-) TimerEvent: {}
+[4.711173] (-) TimerEvent: {}
+[4.812281] (-) TimerEvent: {}
+[4.912665] (-) TimerEvent: {}
+[5.013431] (-) TimerEvent: {}
+[5.113983] (-) TimerEvent: {}
+[5.214854] (-) TimerEvent: {}
+[5.315738] (-) TimerEvent: {}
+[5.416252] (-) TimerEvent: {}
+[5.516592] (-) TimerEvent: {}
+[5.616871] (-) TimerEvent: {}
+[5.718426] (-) TimerEvent: {}
+[5.818771] (-) TimerEvent: {}
+[5.919042] (-) TimerEvent: {}
+[6.019992] (-) TimerEvent: {}
+[6.120992] (-) TimerEvent: {}
+[6.224066] (-) TimerEvent: {}
+[6.325133] (-) TimerEvent: {}
+[6.425537] (-) TimerEvent: {}
+[6.526476] (-) TimerEvent: {}
+[6.627610] (-) TimerEvent: {}
+[6.727950] (-) TimerEvent: {}
+[6.828281] (-) TimerEvent: {}
+[6.928655] (-) TimerEvent: {}
+[7.029014] (-) TimerEvent: {}
+[7.129266] (-) TimerEvent: {}
+[7.229771] (-) TimerEvent: {}
+[7.331692] (-) TimerEvent: {}
+[7.432003] (-) TimerEvent: {}
+[7.532296] (-) TimerEvent: {}
+[7.632683] (-) TimerEvent: {}
+[7.733295] (-) TimerEvent: {}
+[7.753709] (rover_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/rover_package', 'build', '--build-base', '/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/build/rover_package/build', 'install', '--record', '/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/build/rover_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/src/rover_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vincent', 'SSH_CLIENT': '192.168.64.1 51433 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/vincent', 'OLDPWD': '/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install:/mnt/utm/Mini_Rover/racs2_ws/ros2_ws/install:/mnt/utm/ros2_test_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vincent', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '72', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/rover_package:/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/my_package:/mnt/utm/Mini_Rover/racs2_ws/ros2_ws/install/bridge_py_s:/mnt/utm/ros2_test_ws/install/my_robot_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/build/rover_package', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.64.1 51433 192.168.64.4 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/build/rover_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/rover_package/lib/python3.10/site-packages:/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/rover_package/lib/python3.10/site-packages:/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/my_package/lib/python3.10/site-packages:/mnt/utm/Mini_Rover/racs2_ws/ros2_ws/install/bridge_py_s/lib/python3.10/site-packages:/mnt/utm/ros2_test_ws/build/my_robot_controller:/mnt/utm/ros2_test_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[7.812084] (my_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package', 'build', '--build-base', '/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/build/my_package/build', 'install', '--record', '/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/build/my_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/src/my_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vincent', 'SSH_CLIENT': '192.168.64.1 51433 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/vincent', 'OLDPWD': '/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install:/mnt/utm/Mini_Rover/racs2_ws/ros2_ws/install:/mnt/utm/ros2_test_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vincent', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '72', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/rover_package:/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/my_package:/mnt/utm/Mini_Rover/racs2_ws/ros2_ws/install/bridge_py_s:/mnt/utm/ros2_test_ws/install/my_robot_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/build/my_package', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.64.1 51433 192.168.64.4 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/my_package/lib/python3.10/site-packages:/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/rover_package/lib/python3.10/site-packages:/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/my_package/lib/python3.10/site-packages:/mnt/utm/Mini_Rover/racs2_ws/ros2_ws/install/bridge_py_s/lib/python3.10/site-packages:/mnt/utm/ros2_test_ws/build/my_robot_controller:/mnt/utm/ros2_test_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[7.833376] (-) TimerEvent: {}
+[7.935619] (-) TimerEvent: {}
+[8.036423] (-) TimerEvent: {}
+[8.136729] (-) TimerEvent: {}
+[8.236993] (-) TimerEvent: {}
+[8.337324] (-) TimerEvent: {}
+[8.437696] (-) TimerEvent: {}
+[8.541268] (-) TimerEvent: {}
+[8.642981] (-) TimerEvent: {}
+[8.743602] (-) TimerEvent: {}
+[8.844868] (-) TimerEvent: {}
+[8.945279] (-) TimerEvent: {}
+[9.046966] (-) TimerEvent: {}
+[9.147632] (-) TimerEvent: {}
+[9.248052] (-) TimerEvent: {}
+[9.348362] (-) TimerEvent: {}
+[9.450089] (-) TimerEvent: {}
+[9.551332] (-) TimerEvent: {}
+[9.656209] (-) TimerEvent: {}
+[9.756483] (-) TimerEvent: {}
+[9.806039] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[9.807888] (rover_package) StdoutLine: {'line': b'running egg_info\n'}
+[9.812137] (rover_package) StdoutLine: {'line': b'writing ../../build/rover_package/rover_package.egg-info/PKG-INFO\n'}
+[9.812730] (my_package) StdoutLine: {'line': b'writing ../../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[9.818968] (rover_package) StdoutLine: {'line': b'writing dependency_links to ../../build/rover_package/rover_package.egg-info/dependency_links.txt\n'}
+[9.820421] (my_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[9.824114] (rover_package) StdoutLine: {'line': b'writing entry points to ../../build/rover_package/rover_package.egg-info/entry_points.txt\n'}
+[9.826160] (my_package) StdoutLine: {'line': b'writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[9.828209] (rover_package) StdoutLine: {'line': b'writing requirements to ../../build/rover_package/rover_package.egg-info/requires.txt\n'}
+[9.830429] (my_package) StdoutLine: {'line': b'writing requirements to ../../build/my_package/my_package.egg-info/requires.txt\n'}
+[9.831369] (rover_package) StdoutLine: {'line': b'writing top-level names to ../../build/rover_package/rover_package.egg-info/top_level.txt\n'}
+[9.833237] (my_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt\n'}
+[9.856555] (-) TimerEvent: {}
+[9.875904] (rover_package) StdoutLine: {'line': b"reading manifest file '../../build/rover_package/rover_package.egg-info/SOURCES.txt'\n"}
+[9.876519] (my_package) StdoutLine: {'line': b"reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[9.942441] (rover_package) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[9.943339] (my_package) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[9.956625] (-) TimerEvent: {}
+[9.969069] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[9.973353] (my_package) StdoutLine: {'line': b'running build\n'}
+[9.974063] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[9.974688] (rover_package) StdoutLine: {'line': b"writing manifest file '../../build/rover_package/rover_package.egg-info/SOURCES.txt'\n"}
+[9.978238] (rover_package) StdoutLine: {'line': b'running build\n'}
+[9.978962] (rover_package) StdoutLine: {'line': b'running build_py\n'}
+[10.014623] (my_package) StdoutLine: {'line': b'running install\n'}
+[10.015359] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[10.018360] (rover_package) StdoutLine: {'line': b'copying rover_package/base_station_vel.py -> /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/build/rover_package/build/lib/rover_package\n'}
+[10.057933] (-) TimerEvent: {}
+[10.059169] (rover_package) StdoutLine: {'line': b'copying rover_package/rover_vel.py -> /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/build/rover_package/build/lib/rover_package\n'}
+[10.077326] (rover_package) StdoutLine: {'line': b'running install\n'}
+[10.078288] (rover_package) StdoutLine: {'line': b'running install_lib\n'}
+[10.159750] (-) TimerEvent: {}
+[10.160557] (rover_package) StdoutLine: {'line': b'copying /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/build/rover_package/build/lib/rover_package/base_station_vel.py -> /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/rover_package/lib/python3.10/site-packages/rover_package\n'}
+[10.165349] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[10.198601] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.205993] (rover_package) StdoutLine: {'line': b'copying /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/build/rover_package/build/lib/rover_package/rover_vel.py -> /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/rover_package/lib/python3.10/site-packages/rover_package\n'}
+[10.223793] (my_package) StdoutLine: {'line': b"removing '/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.264311] (-) TimerEvent: {}
+[10.280349] (rover_package) StdoutLine: {'line': b'byte-compiling /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/rover_package/lib/python3.10/site-packages/rover_package/base_station_vel.py to base_station_vel.cpython-310.pyc\n'}
+[10.303080] (my_package) StdoutLine: {'line': b'Copying ../../build/my_package/my_package.egg-info to /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info\n'}
+[10.336894] (rover_package) StdoutLine: {'line': b'byte-compiling /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/rover_package/lib/python3.10/site-packages/rover_package/rover_vel.py to rover_vel.cpython-310.pyc\n'}
+[10.368055] (-) TimerEvent: {}
+[10.376068] (rover_package) StdoutLine: {'line': b'running install_data\n'}
+[10.405376] (rover_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.430805] (rover_package) StdoutLine: {'line': b"removing '/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/rover_package/lib/python3.10/site-packages/rover_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.469273] (-) TimerEvent: {}
+[10.506926] (rover_package) StdoutLine: {'line': b'Copying ../../build/rover_package/rover_package.egg-info to /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/rover_package/lib/python3.10/site-packages/rover_package-0.0.0-py3.10.egg-info\n'}
+[10.569401] (-) TimerEvent: {}
+[10.669919] (-) TimerEvent: {}
+[10.771234] (-) TimerEvent: {}
+[10.784305] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[10.871375] (-) TimerEvent: {}
+[10.972107] (-) TimerEvent: {}
+[11.021025] (rover_package) StdoutLine: {'line': b'running install_scripts\n'}
+[11.030726] (my_package) StdoutLine: {'line': b'Installing my_node script to /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/my_package/lib/my_package\n'}
+[11.046006] (my_package) StdoutLine: {'line': b"writing list of installed files to '/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/build/my_package/install.log'\n"}
+[11.073218] (-) TimerEvent: {}
+[11.108204] (my_package) CommandEnded: {'returncode': 0}
+[11.173322] (-) TimerEvent: {}
+[11.273748] (-) TimerEvent: {}
+[11.299749] (rover_package) StdoutLine: {'line': b'Installing base_station_vel script to /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/rover_package/lib/rover_package\n'}
+[11.328206] (rover_package) StdoutLine: {'line': b"writing list of installed files to '/mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/build/rover_package/install.log'\n"}
+[11.374175] (-) TimerEvent: {}
+[11.474754] (-) TimerEvent: {}
+[11.567587] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[11.575820] (-) TimerEvent: {}
+[11.576037] (rover_package) CommandEnded: {'returncode': 0}
+[11.676069] (-) TimerEvent: {}
+[11.778385] (-) TimerEvent: {}
+[11.880101] (-) TimerEvent: {}
+[11.961099] (rover_package) JobEnded: {'identifier': 'rover_package', 'rc': 0}
+[11.967937] (-) EventReactorShutdown: {}

@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'base_station_vel = rover_package.base_station_vel:main',
+            'rover_vel = rover_package.rover_vel:main',
         ],
     },
 )

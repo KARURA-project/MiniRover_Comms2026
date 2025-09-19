@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing rover_package.egg-info/PKG-INFO
+writing dependency_links to rover_package.egg-info/dependency_links.txt
+writing entry points to rover_package.egg-info/entry_points.txt
+writing requirements to rover_package.egg-info/requires.txt
+writing top-level names to rover_package.egg-info/top_level.txt
+reading manifest file 'rover_package.egg-info/SOURCES.txt'
+writing manifest file 'rover_package.egg-info/SOURCES.txt'
+running build_ext
+Creating /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/rover_package/lib/python3.10/site-packages/rover-package.egg-link (link to .)
+Installing base_station_vel script to /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/rover_package/lib/rover_package
+Installing rover_vel script to /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/rover_package/lib/rover_package
+
+Installed /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/build/rover_package
+running symlink_data
+symbolically linking /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/build/rover_package/resource/rover_package -> /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/rover_package/share/ament_index/resource_index/packages
+symbolically linking /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/build/rover_package/package.xml -> /mnt/utm/Mini_Rover/racs2_ws/ros2_test_ws/install/rover_package/share/rover_package

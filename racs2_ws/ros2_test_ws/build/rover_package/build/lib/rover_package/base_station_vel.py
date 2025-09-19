@@ -42,7 +42,7 @@ class vel_publisher(Node):
                 elif key == 'd':
                     twist.angular.z = -1.0 # rotate right
                 elif key == 'q':
-                    self.get_logger().info("Exiting teleop...")
+                    self.get_logger().info("Exiting...")
                     break
                 else:
                     # stop on any other key
