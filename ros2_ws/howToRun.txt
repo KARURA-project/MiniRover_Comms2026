@@ -1,0 +1,9 @@
+## How to Run
+
+1. Start the driver
+
+ros2 run phidgets_motors phidgets_motors_node
+
+2. Run the script
+
+python3 basic_motor.py
