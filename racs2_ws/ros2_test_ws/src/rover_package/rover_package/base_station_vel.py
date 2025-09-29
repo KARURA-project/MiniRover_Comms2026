@@ -20,7 +20,7 @@ def get_key():
     finally:
         termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
     return key
-
+    
 class vel_publisher(Node):
     def __init__(self, node_name="cmd_vel"):
         super().__init__(node_name)
@@ -28,26 +28,33 @@ class vel_publisher(Node):
 
     def publish_velocity(self):
         pub = self.create_publisher(Twist, 'cmd_vel', 10)
+        twist = Twist()
         try:
             while rclpy.ok():
                 key = get_key()
-                twist = Twist()
 
                 if key == 'w':
-                    twist.linear.x = 1.0   # forward
+                    if twist.linear.x < 5:
+                        twist.linear.x += 1.0   # forward
                 elif key == 's':
-                    twist.linear.x = -1.0  # backward
+                    if twist.linear.x > -5:
+                        twist.linear.x -= 1.0  # backward
                 elif key == 'a':
-                    twist.angular.z = 1.0  # rotate left
+                    if twist.angular.z < 5:
+                        twist.angular.z += 1.0  # rotate left
                 elif key == 'd':
-                    twist.angular.z = -1.0 # rotate right
+                    if twist.angular.z > -5:
+                        twist.angular.z -= 1.0  # rotate right
                 elif key == 'q':
+                    # stop rover
+                    twist.linear.x = 0.0
+                    twist.angular.z = 0.0 
+                    pub.publish(twist)
+                    self.get_logger().info(f"Published: linear={twist.linear.x}, angular={twist.angular.z}")
                     self.get_logger().info("Exiting...")
                     break
                 else:
-                    # stop on any other key
-                    twist.linear.x = 0.0
-                    twist.angular.z = 0.0
+                    self.get_logger().info("unbound key")
 
                 pub.publish(twist)
                 self.get_logger().info(f"Published: linear={twist.linear.x}, angular={twist.angular.z}")
